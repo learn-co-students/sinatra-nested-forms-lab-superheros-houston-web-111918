@@ -20,9 +20,9 @@ describe App do
       visit '/'
       fill_in("team[name]", :with => "Team Ruby")
       fill_in("team[motto]", :with => "We love Ruby!")
-      fill_in("member1_name", :with => "Amanda")
-      fill_in("member1_power", :with => "Ruby")
-      fill_in("member1_bio", :with => "I love Ruby!")
+      fill_in("hero_1", :with => "Amanda")
+      fill_in("hero_1", :with => "Ruby")
+      fill_in("hero_1", :with => "I love Ruby!")
       fill_in("member2_name", :with => "Arel")
       fill_in("member2_power", :with => "JavaScript")
       fill_in("member2_bio", :with => "I love JavaScript!")
